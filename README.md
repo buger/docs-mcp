@@ -1,4 +1,5 @@
 # Docs MCP Server
+[![smithery badge](https://smithery.ai/badge/@buger/docs-mcp)](https://smithery.ai/server/@buger/docs-mcp)
 
 This project provides a flexible Model Context Protocol (MCP) server, powered by [Probe](https://probeai.dev/), designed to make documentation or codebases searchable by AI assistants.
 
@@ -28,6 +29,14 @@ The content source (documentation or code) can be **pre-built** into the package
 ## Usage
 
 The primary way to use this server is via `npx`, which downloads and runs the package without needing a local installation. This makes it easy to integrate with AI assistants and MCP clients (like IDE extensions).
+
+### Installing via Smithery
+
+To install Docs MCP Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@buger/docs-mcp):
+
+```bash
+npx -y @smithery/cli install @buger/docs-mcp --client claude
+```
 
 ### Integrating with MCP Clients (e.g., IDEs)
 
